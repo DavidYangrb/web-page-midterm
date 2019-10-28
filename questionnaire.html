@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>questionnaire</title> 
+</head> 
+<style> 
+ ul li{float:left;padding: 0px 50px;line-height: 40px;list-style: none;}
+ a{color:white;}
+ ol li{color:black;}
+</style>
+<body>
+	 <img src="http://xhimg.sports.cn/Image/allimg/171028/15-1G02QA62C54.jpg" style="width: 100%;height: 120px;">
+	  <ul style="height:40px;background:navy;">
+	    <li><a href="home.html">HOME</a></li>
+		<li><a href="news.html">NEWS</a></li>
+		<li><a href="video.html">VIDEO</a></li>
+		<li><a href="Standings.html">STANDINGS</a></li>
+		<li><a href="questionnaire.html">QUESTIONNAIRE</a></li>
+	  </ul>
+	  <h1 style="color:navy;">Questionnaire</h1>
+	  <h5 style="color:black;">Hello, dear friend! Thank you for participating in this ice hockey willingness survey!
+        I hope you fill in it carefully.</h5>
+	  <form action="mailinglist.php" method="post">
+			<ol>
+				<li>
+					<label>NAME:</label>
+					<input type="text">
+				</li>
+				<li>
+					<label>EMAIL:</label>
+					<input type="text">
+				</li>
+				<li>
+					<p>How old are you?</p>		
+					<input type="radio" name="age" value="10-20">10-20
+					<input type="radio" name="age" value="20-30">20-30
+					<input type="radio" name="age" value="30-40">30-40
+				</li>
+				<li>
+					<p>Why do you play Ice hockey??</p>		
+					<input type="checkbox" name="reason" value="Personal-interest">Personal-interest
+					<input type="checkbox" name="reason" value="Family-guidance">Family-guidance
+					<input type="checkbox" name="reason" value="School-publicity">School-publicity
+					<input type="checkbox" name="reason" value="Others">Others
+				</li>
+				<li>
+				    <p>What are the school's opinions or suggestions on ice hockey?</p>
+				    <textarea name="coment" rows="4" cols="45" placeholder="Please enter here..."></textarea>
+				</li>
+			</ol>
+			<input type="submit" value="submit">
+	  </form>	
+	  <a style="color:navy;" href="https://www.nhl.com/">Ice hockey</a>
+	  <h6 style="text-align: center;color:grey;">Copyright 2019 XXX.AllRightsReserved</h6>
+
+</body> 
+</html> 
